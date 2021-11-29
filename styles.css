@@ -1,0 +1,66 @@
+
+#game {
+    position: relative;
+}
+
+#area {
+    margin: 0px;
+    border: 0px;
+    border-left:1px solid black;
+    position: absolute;
+    top:28px;
+    right:26px;
+    width:640px;
+    height:640px;
+    overflow:hidden;
+}
+
+#button {
+    border:1px solid black;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top:165px;
+    left:70px;
+    width:150px;
+    height:40px;
+}
+
+#grid {
+    width:952px;
+    height:692px;
+    margin-top:16px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(./grid.png) right top no-repeat;
+}
+
+#score {
+    text-align: center;
+    color: #000000;
+    
+    font-size: 40px;
+    position: absolute;
+    top:400px;
+    left:95px;
+    width:90px;
+    height:45px;
+}
+#moves {
+    text-align: center;
+    color: #000000;
+    
+    font-size: 40px;
+    position: absolute;
+    top:290px;
+    left:95px;
+    width:90px;
+    height:45px;
+}
+.objectdiv {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
